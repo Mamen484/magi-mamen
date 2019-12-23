@@ -18,13 +18,15 @@
 {% endblock %}
 
 {% block header_navigation_links %}
-    <li>
-        <a href="{{ path('admin_post_index') }}">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="{{ path('admin_post_index') }}"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-list-alt" aria-hidden="true"></i> {{ 'menu.post_list'|trans }}
         </a>
     </li>
-    <li>
-        <a href="{{ path('blog_index') }}">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="{{ path('blog_index') }}"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.back_to_blog'|trans }}
         </a>
     </li>
