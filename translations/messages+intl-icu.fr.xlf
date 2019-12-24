@@ -299,6 +299,10 @@
                 <source>menu.search</source>
                 <target>Recherche</target>
             </trans-unit>
+            <trans-unit id="menu.shop">
+                <source>menu.shop</source>
+                <target>Boutiques</target>
+            </trans-unit>
 
             <trans-unit id="post.to_publish_a_comment">
                 <source>post.to_publish_a_comment</source>
