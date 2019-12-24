@@ -7,9 +7,21 @@
     {{ encore_entry_script_tags('login') }}
 {% endblock %}
 
-{% block footer %}{% endblock %}
+{#
+    the homepage is a special page which displays neither a header nor a footer.
+    this is done with the 'trick' of defining empty Twig blocks without any content
+#}
+{% block aside %}{% endblock %}
 
-{% block body %}
+{% block wrapper %}
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+    </div>
+
     {% if error %}
         <div class="alert alert-danger">
             {{ error.messageKey|trans(error.messageData, 'security') }}
@@ -66,7 +78,7 @@
                         </div>
                         <div class="form-group m-b-0">
                             <div class="col-sm-12 text-center">
-                                <p>Don't have an account? <a href="register.html" class="text-info m-l-5"><b>Sign Up</b></a>
+                                <p>Don't have an account? <a href="{{path('app_register')}}" class="text-info m-l-5"><b>Sign Up</b></a>
                                 </p>
                             </div>
                         </div>

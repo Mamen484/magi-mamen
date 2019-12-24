@@ -396,19 +396,5 @@
   "build/images/yt.svg": "/build/images/yt.40441660.svg",
   "build/images/za.svg": "/build/images/za.5d9e84c3.svg",
   "build/images/zm.svg": "/build/images/zm.50aad31c.svg",
-  "build/images/zw.svg": "/build/images/zw.8b48e5dc.svg",
-  "build/vendors~app.css": "/build/vendors~app.css",
-  "build/fonts/glyphicons-halflings-regular.woff2": "/build/fonts/glyphicons-halflings-regular.448c34a5.woff2",
-  "build/fonts/glyphicons-halflings-regular.ttf": "/build/fonts/glyphicons-halflings-regular.e18bbf61.ttf",
-  "build/fonts/glyphicons-halflings-regular.eot": "/build/fonts/glyphicons-halflings-regular.f4769f9b.eot",
-  "build/fonts/glyphicons-halflings-regular.woff": "/build/fonts/glyphicons-halflings-regular.fa277232.woff",
-  "build/fonts/lato-bold-italic.woff2": "/build/fonts/lato-bold-italic.0b6bb672.woff2",
-  "build/fonts/lato-bold-italic.woff": "/build/fonts/lato-bold-italic.9c7e4e9e.woff",
-  "build/fonts/lato-bold.woff2": "/build/fonts/lato-bold.cccb8974.woff2",
-  "build/fonts/lato-bold.woff": "/build/fonts/lato-bold.d878b6c2.woff",
-  "build/fonts/lato-normal-italic.woff2": "/build/fonts/lato-normal-italic.4eb103b4.woff2",
-  "build/fonts/lato-normal-italic.woff": "/build/fonts/lato-normal-italic.f28f2d64.woff",
-  "build/fonts/lato-normal.woff": "/build/fonts/lato-normal.27bd77b9.woff",
-  "build/fonts/lato-normal.woff2": "/build/fonts/lato-normal.bd03a2cc.woff2",
-  "build/images/glyphicons-halflings-regular.svg": "/build/images/glyphicons-halflings-regular.89889688.svg"
+  "build/images/zw.svg": "/build/images/zw.8b48e5dc.svg"
 }
